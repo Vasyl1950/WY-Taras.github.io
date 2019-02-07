@@ -1,0 +1,136 @@
+ body {
+    padding-top: 0.1em;
+    height: 100%
+}
+img {
+}
+#caption{
+  
+    background-size: cover;
+   
+}
+#heder-1 h1{
+     height: 10rem;
+     padding-top: 1.55rem;
+     background-color: #4b3b57;
+     text-shadow: 0 0 200px #ffffff,0 20px 70px #0C95D5,0 0 8px #8F0000;
+     text-align: center;
+     color:#309b93;
+     font-family: 'Ancient_Kyiv.ttf', arial;
+     font-weight: lighter;
+     line-height:1.5;
+}
+#heder-1{
+     background:#222 url('img/nicsh.jpeg');
+     float: right;
+     padding-top: 1.55rem;
+    
+}
+#heder-1 h4{
+     background-color:transparent;
+     text-shadow: 0 0 200px #ffffff,0 0 50px #FFFF00,0 0 8px #8F0000;
+     color:#f8e51a;
+     font-family: 'CyrillicOld', arial;
+     text-align: center;
+}
+#heder-1 h3{
+     background-color:transparent;
+     text-shadow: 0 0 200px #ffffff,0 0 50px #FFFF00,0 0 8px #8F0000;
+     color:#f8e51a;
+     font-family: 'Andantino script', arial;
+     text-align: center;
+}
+#heder-1 h6{
+    color:#d7cccc;
+    text-align: center;
+}
+#heder-2{
+     position: fixed;
+      background-color:#a1a1a1;
+      height: 100%
+}
+#heder-2 h1{
+      padding-top: 0.5em;
+      font-size:86px;
+      color:yellow;
+     
+}
+#bar{
+    text-align: center;
+}
+#bar1{
+    text-align: center;
+    color: #988989;
+}
+#tiles li {
+      width:170px !important;
+      background-color:transparent;
+      padding: 4px !important;
+      margin-right:7px;
+      margin-bottom:7px;
+      float:left;
+}
+#tiles2 li {
+        width:170px !important;
+        background-color:transparent;
+        padding: 4px !important;
+        margin-right:7px;
+        margin-bottom:7px;
+        float:left;
+}
+#tiles li img {
+        margin-bottom:5px;
+}
+
+.container mt{
+        clear:;
+        height:50px;
+        margin:50px 0 0;
+        background-color: red
+}
+ h4{
+    color: red
+}
+
+
+  #tiles li p {
+      font-size:12px;
+      line-height:1.5;
+      margin:0;
+}
+
+  #tiles li a {
+      font-size:12px;
+}
+  #table. #table1{
+         background-color: yellow
+}
+#box1{
+
+
+text-indent: 0px;
+
+-moz-transition: all 2s ease-out;
+-o-transition: all 2s ease-out;
+-webkit-transition: all 2s ease-out;
+color: #c0c0c0;
+cursor: pointer;
+}
+#box1:hover{
+  -webkit-transform: scale(1.2) ;
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  z-index:101
+}
+  #footer{
+    background-color: yellow;
+    color: red;
+    height:150px;
+        position: fixed;
+        z-index: 101;
+}
+@media (max-width: 767px) {    
+   #heder-2{
+     position: relative;
+     }
+ }
